@@ -1,0 +1,22 @@
+//Reset settings for the browser
+*,
+*:link,
+*:active{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%; // converting 1rem to 10px
+    // background-: $color-primary; 
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+}
+.u-margin-right{
+    margin-right: 7px;
+    font-weight: 400;
+    @media only screen and (max-width:40em){
+        margin-right: 1.3rem;
+    }
+}
